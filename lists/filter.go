@@ -11,6 +11,7 @@ func FilterLess(list []int, key int) []int {
 	// plus die gefilterte Restliste.
 
 	// TODO
+
 	return list
 }
 
