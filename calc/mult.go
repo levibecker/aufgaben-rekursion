@@ -2,8 +2,11 @@ package calc
 
 // Liefert das Produkt von x und y.
 func Mult(x, y int) int {
-	result := 1
 
+	if y == 0 {
+		return 0
+	}
 	// TODO
-	return result
+
+	return Mult(x, y-1) + x
 }
